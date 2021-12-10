@@ -1,0 +1,69 @@
+body{
+    background-color: dimgray;
+}
+header{
+    position: -webkit-sticky;
+position: sticky;
+top: 0px;
+    background: dimgray;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+a{
+    font-size: 20px;
+    padding: 0px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: silver;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    margin: 50px;
+}
+    footer{
+        /*Отступ*/
+    
+        height: 200px;
+        width: 100%;
+    
+        border-radius: 50px;
+        border-width: 5px;
+        border-color: dimgray;
+        border-style: solid;
+    
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+    }
+    .name{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .handwriting{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
